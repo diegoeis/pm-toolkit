@@ -55,6 +55,7 @@
       vertical-align: middle;
     }
 
+
     .pm-menu {
       font-size: 0;
       vertical-align: middle;
@@ -185,7 +186,53 @@
       color: #D3C300;
       text-decoration: underline;
     }
+ @media screen and (max-width: 700px) {
+      .pm-logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+      .pm-sub-header {
+        position: static;
+        height: auto;
+      }
+      .pm-menu {
+        width: 100%;
+      }
+      .pm-menu li,
+      .pm-second-menu li,
+      .pm-second-menu li a,
+      .pm-menu li a {
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+      .pm-second-menu li a,
+      .pm-menu li a {
+        padding: 7px;
+      }
+      .pm-second-menu {
+        text-align: center;
+        float: none;
+        display: block;
+        width: 100%;
+      }
+      header p {
+        font-size: 20px;
+        padding: 30px 20px;
+      }
 
+      .pm-link-collection {
+        padding: 0 30px;
+        display: block;
+      }
+
+      .pm-link-collection nav {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+    }
   </style>
 </head>
 <body>
