@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .pm-logo {
       background: #000;
       color: #fff;
-      padding: 10px 20px;
+      padding: 13px 20px;
       text-decoration: none;
       font-size: 20px;
       display: inline-block;
@@ -51,12 +51,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 
     .pm-menu {
+      font-size: 0;
       vertical-align: middle;
       display: inline-block;
     }
 
     .pm-menu li,
     .pm-second-menu li {
+      font-size: 0;
       display: inline-block;
       vertical-align: middle;
       list-style: none;
@@ -68,14 +70,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       color: #000;
       font-size: 15px;
       font-weight: 700;
-      padding: 10px 20px;
+      padding: 16px 20px 15px;
       vertical-align: middle;
+      display: inline-block;
+      transition: all linear .15s;
     }
+
+    .pm-menu li a:hover,
+    .pm-second-menu li a:hover {
+      background: rgba(0, 0, 0, .1)
+    }    
 
     .pm-second-menu {
       display: inline-block;
       float: right;
-      padding-top: 10px;
     }
 
     header p {
@@ -88,6 +96,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       padding: 150px 20px;
       margin: 0 auto;
     }
+
+    header p a {color: #000}
 
     header p strong {
       text-decoration: underline;
@@ -108,7 +118,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .pm-sub-header {
       position: fixed;
       top: 0;
-      background: var(--yellow)
+      background: var(--yellow);
+      height: 50px;
     }
 
     .pm-section {
