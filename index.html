@@ -55,6 +55,8 @@
     }
 
     header {
+      position: relative;
+      z-index: 1;
       background: var(--yellow);
     }
 
@@ -199,6 +201,29 @@
       color: #D3C300;
       text-decoration: underline;
     }
+
+
+    .lang-ptbr {
+      position: relative;
+      z-index: 0
+    }
+    .lang-ptbr:after {
+      content: "🇧🇷";
+      vertical-align: middle;
+      display: inline-block;
+      font-size: 1rem;
+      line-height: 1;
+      position: absolute;;
+      left: -25px;
+      top: 7px;
+      padding-left: 3px;
+    }
+
+    #about p {
+      margin-bottom: 20px;
+      max-width: 900px;
+    }
+
  @media screen and (max-width: 700px) {
       .pm-logo {
         width: 100%;
@@ -257,7 +282,7 @@
       <a href="http://pmtoolkit.work/" class="pm-logo">PM Toolkit</a>
       <ul class="pm-menu">
         <li><a href="#tools">Tools</a></li>
-        <li><a href="#content">Content</a></li>
+        <li><a href="#content">Content &amp; People</a></li>
         <li><a href="#events">Events &amp; Meetups</a></li>
         <li><a href="#courses">Courses</a></li>
         <li><a href="#jobs">Jobs</a></li>
@@ -522,10 +547,10 @@
       <nav>
         <h2>Sites &amp; Blogs</h2>
         <ul>
+          <li><a class="lang-ptbr" href="http://gestaodeprodutos.com/?utm_source=pmtoolkit.work">GP - Gestão de Produtos</a></li>
           <li><a href="http://www.svpg.com/articles?utm_source=pmtoolkit.work">SVPG</a></li>
           <li><a href="http://www.cleverpm.com/?utm_source=pmtoolkit.work">The Clever PM</a></li>
           <li><a href="https://productcoalition.com/?utm_source=pmtoolkit.work">Product Coalition</a></li>
-          <li><a class="lang-ptbr" href="http://gestaodeprodutos.com/?utm_source=pmtoolkit.work">GP - Gestão de Produtos</a></li>
           <li><a href="https://www.mindtheproduct.com/?utm_source=pmtoolkit.work">Mind the Product</a></li>
           <li><a href="https://pmblog.quora.com/?utm_source=pmtoolkit.work">The Art of Product Management</a></li>
           <li><a href="https://www.productplan.com/blog/?utm_source=pmtoolkit.work">ProductPlan Blog</a></li>
@@ -542,40 +567,44 @@
       <nav>
         <h2>People</h2>
         <ul>
+          <li><a class="lang-ptbr" href="https://twitter.com/@demianborba">Demian Borba</a></li>
+          <li><a class="lang-ptbr" href="https://twitter.com/@horaciosoares">Horácio Soares</a></li>
+          <li><a class="lang-ptbr" href="https://www.linkedin.com/in/phsil/">Pablo Silva</a></li>
+          <li><a class="lang-ptbr" href="https://diegoeis.com/?utm_source=pmtoolkit.work">Diego Eis</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/@hugh.strange">Hugh Strange</a></li>
+          <li><a class="lang-ptbr" href="https://twitter.com/arthur_debert">Arthur Debert</a></li>
+          <li><a class="lang-ptbr" href="https://twitter.com/rfarinazz">Raphael Farinazzo</a></li>
+          <li><a class="lang-ptbr" href="https://www.linkedin.com/in/thiago-ferro/">Thiago Ferro</a></li>
+          <li><a class="lang-ptbr" href="http://spengler.io/?utm_source=pmtoolkit.work">Alexandre Spengler</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/@jocatorres/?utm_source=pmtoolkit.work">Joaquim Torres</a></li>
           <li><a href="https://twitter.com/cagan">Marty Cagan</a></li>
-          <li><a href="https://medium.com/@redman">Tom Redman</a></li>
-          <li><a href="https://medium.com/@ev">Ev Williams</a></li>
           <li><a href="https://medium.com/@paulmcdonald">Paul Adams</a></li>
           <li><a href="https://twitter.com/ttorres">Teresa Torres</a></li>
           <li><a href="https://medium.com/@bfgmartin">Martin Eriksson</a></li>
           <li><a href="https://twitter.com/@swproddevlead">@swproddevlead</a></li>
           <li><a href="https://twitter.com/@lissijean">@lissijean</a></li>
           <li><a href="https://twitter.com/@simplybastow">@simplybastow</a></li>
-          <li><a href="https://twitter.com/@ProdPad">@ProdPad</a></li>
-          <li><a href="https://twitter.com/@MindTheProduct">@MindTheProduct</a></li>
           <li><a href="https://twitter.com/@danolsen">@danolsen</a></li>
           <li><a href="https://twitter.com/@jboogie">@jboogie</a></li>
-          <li><a href="https://twitter.com/@jefflash">@jefflash</a></li>
-          <li><a href="https://twitter.com/@fww">@fww</a></li>
           <li><a href="https://twitter.com/@eboduch">@eboduch</a></li>
-          <li><a href="https://twitter.com/@pendoio">@pendoio</a></li>
           <li><a href="https://twitter.com/@productlovelive">@productlovelive</a></li>
           <li><a href="https://twitter.com/@product_craft">@product_craft</a></li>
           <li><a href="https://twitter.com/@ttorres">@ttorres</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/@jocatorres/?utm_source=pmtoolkit.work">Joaquim Torres</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/@arthurklose">Arthur Klose</a></li>
-          <li><a class="lang-ptbr" href="https://twitter.com/@demianborba">Demian Borba</a></li>
-          <li><a class="lang-ptbr" href="https://twitter.com/@horaciosoares">Horácio Soares</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/@diegoeis">Diego Eis</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/@hugh.strange">Hugh Strange</a></li>
-          <li><a class="lang-ptbr" href="https://twitter.com/arthur_debert">Arthur Debert</a></li>
-          <li><a class="lang-ptbr" href="https://twitter.com/rfarinazz">Raphael Farinazzo</a></li>
+          <li><a href="https://www.linkedin.com/in/melissajeanperri/">Melissa Perri</a></li>
+          <li><a href="https://www.linkedin.com/in/hopegurion/">Hope Gurion</a></li>
+          <li><a href="https://www.linkedin.com/in/gibsonbiddle/">Gibson Biddle</a></li>
+          <li><a href="https://www.linkedin.com/in/shreyasdoshi/">Shreyas Doshi</a></li>
+          <li><a href="https://twitter.com/snowded">Dave Snowden</a></li>
         </ul>
       </nav>
 
       <nav>
         <h2>Books</h2>
         <ul>
+          <li><a class="lang-ptbr" href="https://gestaomodernaprodutosdigitais.com/">Gestão de Moderna de Produtos Digitais</a></li>
+          <li><a class="lang-ptbr" href="https://www.casadocodigo.com.br/products/livro-startup-guia?utm_source=pmtoolkit.work">Guia da Startup</a></li>
+          <li><a class="lang-ptbr" href="https://www.casadocodigo.com.br/products/livro-direto-ao-ponto?utm_source=pmtoolkit.work">Direto ao Ponto</a></li>
+          <li><a class="lang-ptbr" href="https://www.casadocodigo.com.br/products/livro-gestao-produtos?utm_source=pmtoolkit.work">Gestão de Produtos</a></li>
           <li><a href="http://amzn.to/2FNL5Xm">Inspired</a></li>
           <li><a href="https://www.radicalcandor.com/?utm_source=pmtoolkit.work">Radical Candor</a></li>
           <li><a href="https://www.goodreads.com/book/show/3856.User_Stories_Applied?utm_source=pmtoolkit.work">User Stories Applied</a></li>
@@ -587,16 +616,18 @@
           <li><a href="https://www.amazon.com/Innovators-Dilemma-Revolutionary-Change-Business/dp/0062060244/ref=sr_1_3?s=books&ie=UTF8&qid=1514323987&sr=1-3&keywords=the+innovators+dilemma">The Innovators Dilemma</a></li>
           <li><a href="https://www.amazon.com/Design-Business-Thinking-Competitive-Advantage/dp/1422177807/ref=sr_1_1?utm_source=pmtoolkit.work">The Design of Business</a></li>
           <li><a href="https://www.amazon.com/Build-Better-Products-Successful-User-Centered/dp/1933820586?tag=uuid00-20?utm_source=pmtoolkit.work">Building Better Products</a></li>
-          <li><a class="lang-ptbr" href="https://www.casadocodigo.com.br/products/livro-gestao-produtos?utm_source=pmtoolkit.work">Gestão de Produtos</a></li>
-          <li><a class="lang-ptbr" href="https://www.casadocodigo.com.br/products/livro-startup-guia?utm_source=pmtoolkit.work">Guia da Startup</a></li>
-          <li><a class="lang-ptbr" href="https://www.casadocodigo.com.br/products/livro-direto-ao-ponto?utm_source=pmtoolkit.work">Direto ao Ponto</a></li>
         </ul>
       </nav>
 
       <nav>
         <h2>Articles to start</h2>
         <ul>
-          <li><a href="https://svpg.com/product-manager-vs-product-owner-revisited/?utm_source=pmtoolkit.work">Product Manager vs. Product Owner Revisited</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/o-que-é-um-product-owner-c44bb29a9f66?utm_source=pmtoolkit.work">O que é um Product Owner?</a></li>
+          <li><a class="lang-ptbr" href="http://blog.plataformatec.com.br/2018/02/pare-de-chamar-product-owners-e-product-managers-de-mini-ceos/?utm_source=pmtoolkit.work">Pare de chamar Product Owners e Product Managers de mini CEOs</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/um-estudo-sobre-service-dominant-logic-ou-s-d-logic-4894c3da621f">Você conhece Service Dominant Logic ou S-D Logic?</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/pms-não-são-ceo-de-coisa-alguma-be45f4017729?utm_source=pmtoolkit.work">PMs não são CEO de coisa alguma</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/sobre-times-e-squads-fb376f67d3ba?utm_source=pmtoolkit.work">Sobre times e Squads</a></li>
+          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/porque-construir-a-vis%C3%A3o-do-produto-14b7bd7554d5?utm_source=pmtoolkit.work">Porque construir a visão do produto</a></li>          <li><a href="https://svpg.com/product-manager-vs-product-owner-revisited/?utm_source=pmtoolkit.work">Product Manager vs. Product Owner Revisited</a></li>
           <li><a href="https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/?utm_source=pmtoolkit.work">What, exactly, is a Product Manager?</a></li>
           <li><a href="https://medium.com/@theproductclub/6-things-ive-learnt-in-my-first-year-as-a-product-owner-a593591aad0?utm_source=pmtoolkit.work">6 Things I’ve Learnt In My First Year as a Product Owner</a></li>
           <li><a href="https://svpg.com/product-management-vs-product-marketing/?utm_source=pmtoolkit.work">Product Management vs. Product Marketing</a></li>
@@ -604,18 +635,13 @@
           <li><a href="http://www.cleverpm.com/2017/12/21/the-clever-pms-hierarchy-of-pm-needs/?utm_source=pmtoolkit.work">The Clever PM’s Hierarchy of PM Needs</a></li>
           <li><a href="https://productcoalition.com/most-startups-dont-starve-they-drown-here-is-why-and-how-to-survive-4651233acd3d?utm_source=pmtoolkit.work">Startups don’t starve, they drown. Here is why, and how to survive.</a></li>
           <li><a href="https://dzone.com/articles/product-owner-top-10?utm_source=pmtoolkit.work">The Product Owner - Top 10 Responsibilities</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/o-que-é-um-product-owner-c44bb29a9f66?utm_source=pmtoolkit.work">O que é um Product Owner?</a></li>
-          <li><a class="lang-ptbr" href="http://blog.plataformatec.com.br/2018/02/pare-de-chamar-product-owners-e-product-managers-de-mini-ceos/?utm_source=pmtoolkit.work">Pare de chamar Product Owners e Product Managers de mini CEOs</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/um-estudo-sobre-service-dominant-logic-ou-s-d-logic-4894c3da621f">Você conhece Service Dominant Logic ou S-D Logic?</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/pms-não-são-ceo-de-coisa-alguma-be45f4017729?utm_source=pmtoolkit.work">PMs não são CEO de coisa alguma</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/sobre-times-e-squads-fb376f67d3ba?utm_source=pmtoolkit.work">Sobre times e Squads</a></li>
-          <li><a class="lang-ptbr" href="https://medium.com/gestao-produtos/porque-construir-a-vis%C3%A3o-do-produto-14b7bd7554d5?utm_source=pmtoolkit.work">Porque construir a visão do produto</a></li>
         </ul>
       </nav>
 
       <nav>
         <h2>Podcasts</h2>
         <ul>
+          <li><a class="lang-ptbr" href="http://productbackstage.com.br/?utm_source=pmtoolkit.work">Product Backstage</a></li>
           <li><a href="https://www.fs.blog/the-knowledge-project/?utm_source=pmtoolkit.work">The Knowledge Project</a></li>
           <li><a href="https://www.designbetter.co/podcast/?utm_source=pmtoolkit.work">Design Better Co. Podcast</a></li>
           <li><a href="https://www.100productmanagers.com/interviews/?utm_source=pmtoolkit.work">100 PM Podcast</a></li>
@@ -640,22 +666,22 @@
       <nav>
         <h2>Events</h2>
         <ul>
+          <li><a class="lang-ptbr" href="http://productcampsp.com.br/?utm_source=pmtoolkit.work">ProductCamp SP</a></li>
+          <li><a class="lang-ptbr" href="https://www.meetup.com/pt-BR/Gerenciamento-de-Produtos-Digitais-Porto-Alegre/?utm_source=pmtoolkit.work">Meetup de Produto Porto Alegre</a></li>
           <li><a href="https://www.facebook.com/groups/womeninproduct/?utm_source=pmtoolkit.work">Women in Product</a></li>
           <li><a href="https://leanstartup.co/2018-conference/?utm_source=pmtoolkit.work">Lean Startup</a></li>
           <li><a href="http://mtpcon.com/?utm_source=pmtoolkit.work">ProductCamp</a></li>
           <li><a href="http://www.productized.co/?utm_source=pmtoolkit.work">Productized</a></li>
           <li><a href="https://www.mindtheproduct.com/2017/09/mind-product-conferences-2018/?utm_source=pmtoolkit.work">Mind The Product Conference</a></li>
-          <li><a class="pm-ptbr" href="http://productcampsp.com.br/?utm_source=pmtoolkit.work">ProductCamp SP</a></li>
-          <li><a class="pm-ptbr" href="https://www.meetup.com/pt-BR/Gerenciamento-de-Produtos-Digitais-Porto-Alegre/?utm_source=pmtoolkit.work">Meetup de Produto Porto Alegre</a></li>
         </ul>
       </nav>
       <nav>
         <h2>Meetups</h2>
         <ul>
+          <li><a class="lang-ptbr" href="https://www.meetup.com/SP-Product-Meetup/?utm_source=pmtoolkit.work">SP Product Meetup</a></li>
+          <li><a class="lang-ptbr" href="https://www.meetup.com/pt-BR/produtoSP">ProductSP</a></li>
           <li><a href="https://www.meetup.com/pt-BR/productmanagementNY/?utm_source=pmtoolkit.work">Product Management New York</a></li>
           <li><a href="http://www.producttank.com/?utm_source=pmtoolkit.work">ProductTank</a></li>
-          <li><a class="pm-ptbr" href="https://www.meetup.com/SP-Product-Meetup/?utm_source=pmtoolkit.work">SP Product Meetup</a></li>
-          <li><a class="pm-ptbr" href="https://www.meetup.com/pt-BR/produtoSP">ProductSP</a></li>
         </ul>
       </nav>
 
@@ -715,15 +741,14 @@
 
   <section id="about" class="pm-section">
     <h1 class="pm-title-1">About this project</h1>
-    <p>Because we don't need waste time looking for good content.</p>
-      <p>
-        Whenever you are new to a certain area of ​​knowledge, you need to learn everything about that area fast. It is not always possible to have someone by your side telling you the easy way. What happens is that you end up wasting precious time looking for good sources of information like blogs, books and other important subjects to study. The idea of ​​this project is try to help you bringing some content, tools and resources to you don't waste your time.
+      <p>Because we don't need waste time looking for good content.<br><br>
+        Whenever you are new to a certain area of ​​knowledge, you need to learn quicly everything about that area. It is not always possible to have someone by your side telling you the easy way. What happens is that you end up wasting precious time looking for good sources of information like blogs, books and other important subjects to study. The idea of ​​this project is try to help you, bringing some content, tools and resources. So, you don't need to waste precious time.
       </p>
       <p>
         If you want to contribute with the project, please, submit a <a href="https://github.com/diegoeis/pm-toolkit">Pull Request on the GitHub</a> or just open an issue. Easy peasy.
       </p>
 
-      <p>My name is <small>Diego Eis</small>. I'm Product Manager in Brazil. You can find me at <a href="https://medium.com/@diegoeis">Medium</a> and <a href="https://twitter.com/diegoeis">Twitter</a>.</p>
+      <p>My name is <strong><a href="https://diegoeis.com/">Diego Eis</a></strong>. I'm Head of Digital Product in Brazil. You can find me at <a href="https://medium.com/@diegoeis">Medium</a> and <a href="https://twitter.com/diegoeis">Twitter</a>.</p>
 
   </section>
 
